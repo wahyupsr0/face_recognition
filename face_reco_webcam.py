@@ -5,9 +5,9 @@ import cv2
 video_capture = cv2.VideoCapture(0)
 
 bruno_image = fr.load_image_file("wahyu.jpg")
-bruno_face_encoding = fr.face_encodings(bruno_image)[0]
+bruno_face_encoding = fr.face_encodings(wahyu_image)[0]
 
-known_face_encondings = [bruno_face_encoding]
+known_face_encondings = [wahyu_face_encoding]
 known_face_names = ["Wahyu"]
 
 while True: 
