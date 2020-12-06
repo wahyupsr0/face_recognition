@@ -1,5 +1,5 @@
 # face_recognition
-Membuat Directory venv dan mengatifkan directory 
+Membuat Folder Directory dan mengatifkan Virtual environment (venv)
 - python3.8 -m venv work
 - source work/bin/activate
 
